@@ -1,0 +1,14 @@
+/bin/
+/Debug/
+*.db
+*.swp
+*.exe
+*.o
+*.recommenders
+*.metadata
+*.classpath
+*.project
+*.cproject
+*.settings
+*.out
+*.cproject

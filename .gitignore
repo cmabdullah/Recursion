@@ -12,3 +12,6 @@
 *.settings
 *.out
 *.cproject
+*makefile
+*.mk
+*.d

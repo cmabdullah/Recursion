@@ -239,6 +239,18 @@ a -> c
 
 
 
+## recursive For loop:
+
+```cpp
+void FOR(int i, int n) {
+    if(i==n) return; // terminates
+    // do whatever needed
+    FOR(i+1, n); // go to next step
+}
+
+
+
+
 ###ref·er·ence
  * [Recursion](http://zobayer.blogspot.com/2009/12/cse-102-practice-recursions.html) :D
 

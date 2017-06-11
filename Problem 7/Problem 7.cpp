@@ -16,6 +16,7 @@ Output:
 120
  * */
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 int factorial(int a);
 int main() {

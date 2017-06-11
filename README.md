@@ -106,30 +106,28 @@ Output: <br />
 
 
 
-* Problem 10: 
+## Problem 10: 
 
 Write a recursive program to determine whether a given integer is prime or not.
 
 
 Input: <br />
-49 <br />
-999983 <br />
-1 <br />
-Output: <br />
-not prime <br />
-prime <br />
-not prime <br />
+19 <br />
 
-* Problem 11: 
+Output: <br />
+prime <br />
+
+
+## Problem 11: 
 
 Write a recursive function that finds the gcd of two non-negative integers.
 
 
 Input: <br />
-25 8895 <br />
+68 51 <br />
 Output:  <br />
-5 <br />
-
+17 <br />
+![alt text](https://cmabdullah.github.io/Recursion/Images/gcd.jpeg "")
 * Problem 12:
 
 Write a recursive solution to compute lcm of two integers. You must not use the formula lcm(a,b) = (a x b) / gcd(a,b); find lcm from scratch...

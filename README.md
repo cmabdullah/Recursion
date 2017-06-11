@@ -5,11 +5,11 @@
 You will be given an array of integers, write a recursive solution to print it in reverse order.
 
 
-Input:
-5
-69 87 45 21 47
-Output:
-47 21 45 87 69
+Input: <br />
+5 <br />
+69 87 45 21 47 <br />
+Output: <br />
+47 21 45 87 69 <br />
 
 * Problem 2:
 
@@ -31,6 +31,18 @@ Output:
 
 * Problem 3:
 
+Write a recursive program to remove all odd integers from an array. You must not use any extra array.
+
+
+Input:
+6
+1 54 88 6 55 7
+Output:
+54 88 6
+
+
+* Problem 4:
+
 Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read input, call the recursive function, then print the array in main().
 
 
@@ -40,7 +52,7 @@ Input:
 Output:
 54 88 6
 
-* Problem 4:
+* Problem 5:
 
 Write a recursive solution to print the polynomial series for any input n:
 1 + x + x2 + ................. + xn-1
@@ -51,7 +63,7 @@ Input:
 Output:
 1 + x + x^2 + x^3 + x^4
 
-* Problem 5:
+* Problem 6:
 
 Write a recursive solution to evaluate the previous polynomial for any given x and n.
 Like, when x=2 and n=5, we have 1 + x + x2 + ................. + xn-1 = 31
@@ -62,7 +74,7 @@ Input:
 Output:
 31
 
-* Problem 6:
+* Problem 7:
 
 Write a recursive program to compute n!
 
@@ -72,7 +84,7 @@ Input:
 Output:
 120
 
-* Problem 7:
+* Problem 8:
 
 Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.
 
@@ -81,7 +93,7 @@ Input:
 Output:
 8
 
-* Problem 8:
+* Problem 9:
 
 Write a recursive program to determine whether a given integer is prime or not.
 
@@ -95,7 +107,7 @@ not prime
 prime
 not prime
 
-* Problem 9:
+* Problem 10:
 
 Write a recursive function that finds the gcd of two non-negative integers.
 
@@ -251,7 +263,7 @@ void FOR(int i, int n) {
 
 
 
-###ref·er·ence
+### ref·er·ence
  * [Recursion](http://zobayer.blogspot.com/2009/12/cse-102-practice-recursions.html) :D
 
  * [More Problem](http://www.sanfoundry.com/c-programming-examples-recursion/) :D

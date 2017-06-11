@@ -2,7 +2,7 @@
 
 * Problem 1:
 
-You will be given an array of integers, write a recursive solution to print it in reverse order.
+You will be given an array of integers, write a recursive solution to print it in reverse order. <br />
 
 
 Input: <br />
@@ -11,111 +11,111 @@ Input: <br />
 Output: <br />
 47 21 45 87 69 <br />
 
-* Problem 2:
+* Problem 2: <br />
 
 Write a recursive function to print an array in the following order.
-[0] [n-1]
-[1] [n-2]
-.........
-.........
-[(n-1)/2] [n/2]
+[0] [n-1] <br />
+[1] [n-2] <br />
+......... <br />
+......... <br />
+[(n-1)/2] [n/2] <br />
 
 
-Input:
-5
-1 5 7 8 9
-Output:
-1 9
-5 8
-7 7
+Input: <br />
+5 <br />
+1 5 7 8 9 <br />
+Output: <br />
+1 9 <br />
+5 8 <br />
+7 7 <br /> 
 
-* Problem 3:
+* Problem 3: <br />
 
-Write a recursive program to remove all odd integers from an array. You must not use any extra array.
-
-
-Input:
-6
-1 54 88 6 55 7
-Output:
-54 88 6
+Write a recursive program to remove all odd integers from an array. You must not use any extra array. 
 
 
-* Problem 4:
+Input: <br />
+6 <br />
+1 54 88 6 55 7 <br />
+Output: <br />
+54 88 6 <br />
+
+
+* Problem 4: <br />
 
 Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read input, call the recursive function, then print the array in main().
 
 
-Input:
-6
-1 54 88 6 55 7
-Output:
-54 88 6
+Input: <br />
+6 <br />
+1 54 88 6 55 7 <br />
+Output: <br />
+54 88 6 <br />
 
-* Problem 5:
+* Problem 5: <br />
 
 Write a recursive solution to print the polynomial series for any input n:
-1 + x + x2 + ................. + xn-1
+1 + x + x2 + ................. + xn-1 <br />
+![alt text](http://i.imgur.com/k359mxP.png "")
 
+Input: <br />
+5 <br />
+Output: <br />
+1 + x + x^2 + x^3 + x^4 <br />
 
-Input:
-5
-Output:
-1 + x + x^2 + x^3 + x^4
-
-* Problem 6:
+* Problem 6: <br />
 
 Write a recursive solution to evaluate the previous polynomial for any given x and n.
 Like, when x=2 and n=5, we have 1 + x + x2 + ................. + xn-1 = 31
 
 
-Input:
-2 5
-Output:
-31
+Input: <br />
+2 5 <br />
+Output: <br />
+31 <br />
 
-* Problem 7:
+* Problem 7: <br />
 
-Write a recursive program to compute n!
+Write a recursive program to compute n!  <br />
 
 
-Input:
-5
-Output:
-120
+Input:  <br />
+5 <br />
+Output: <br />
+120 <br />
 
-* Problem 8:
+* Problem 8: <br />
 
-Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.
+Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1. <br />
 
-Input:
-6
-Output:
-8
+Input: <br />
+6 <br />
+Output: <br />
+8 <br />
 
-* Problem 9:
+* Problem 9: 
 
 Write a recursive program to determine whether a given integer is prime or not.
 
 
-Input:
-49
-999983
-1
-Output:
-not prime
-prime
-not prime
+Input: <br />
+49 <br />
+999983 <br />
+1 <br />
+Output: <br />
+not prime <br />
+prime <br />
+not prime <br />
 
-* Problem 10:
+* Problem 10: 
 
 Write a recursive function that finds the gcd of two non-negative integers.
 
 
-Input:
-25 8895
-Output:
-5
+Input: <br />
+25 8895 <br />
+Output:  <br />
+5 <br />
 
 * Problem 10:
 

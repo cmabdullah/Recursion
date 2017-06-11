@@ -15,3 +15,23 @@
 *makefile
 *.mk
 *.d
+/Problem 1/.gitignore
+/Problem 2/.gitignore
+/Problem 3/.gitignore
+/Problem 4/.gitignore
+/Problem 5/.gitignore
+/Problem 6/.gitignore
+/Problem 7/.gitignore
+/Problem 8/.gitignore
+/Problem 9/.gitignore
+/Problem 10/.gitignore
+/Problem 11/.gitignore
+/Problem 12/.gitignore
+/Problem 13/.gitignore
+/Problem 14/.gitignore
+/Problem 15/.gitignore
+/Problem 16/.gitignore
+/Problem 17/.gitignore
+/Problem 18/.gitignore
+/Problem 19/.gitignore
+/Problem 20/.gitignore

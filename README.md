@@ -106,7 +106,7 @@ Output: <br />
 
 
 
-* Problem 9: 
+* Problem 10: 
 
 Write a recursive program to determine whether a given integer is prime or not.
 
@@ -120,7 +120,7 @@ not prime <br />
 prime <br />
 not prime <br />
 
-* Problem 10: 
+* Problem 11: 
 
 Write a recursive function that finds the gcd of two non-negative integers.
 
@@ -130,7 +130,7 @@ Input: <br />
 Output:  <br />
 5 <br />
 
-* Problem 10:
+* Problem 12:
 
 Write a recursive solution to compute lcm of two integers. You must not use the formula lcm(a,b) = (a x b) / gcd(a,b); find lcm from scratch...
 
@@ -140,7 +140,7 @@ Input:
 Output:
 11224
 
-* Problem 11:
+* Problem 13:
 
 Suppose you are given an array of integers in an arbitrary order. Write a recursive solution to find the maximum element from the array.
 
@@ -151,7 +151,7 @@ Input:
 Output:
 9
 
-* Problem 12:
+* Problem 14:
 
 Write a recursive solution to find the second maximum number from a given set of integers.
 
@@ -162,7 +162,7 @@ Input:
 Output:
 8
 
-* Problem 13:
+* Problem 15:
 
 Implement linear search recursively, i.e. given an array of integers, find a specific value from it.
 Input format: first n, the number of elements. Then n integers. Then, q, number of query, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
@@ -177,7 +177,7 @@ Output:
 not found
 1
 
-* Problem 14:
+* Problem 16:
 
 Implement binary search recursively, i.e. given an array of sorted integers, find a query integer from it.
 Input format: first n, the number of elements. Then n integers. Then, q, number of query, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
@@ -192,7 +192,7 @@ Output:
 2
 not found
 
-* Problem 15:
+* Problem 17:
 
 Write a recursive solution to get the reverse of a given integer. Function must return an int
 
@@ -202,7 +202,7 @@ Input:
 Output:
 504321
 
-* Problem 16:
+* Problem 18:
 
 Read a string from keyboard and print it in reversed order. You must not use any array to store the characters. Write a recursive solutions to solve this problem.
 
@@ -212,7 +212,7 @@ helloo
 Output:
 oolleh
 
-* Problem 17:
+* Problem 19:
 
 Write a recursive program that determines whether a given sentence is palindromic or not just considering the alpha-numeric characters ('a'-'z'), ('A'-'Z'), ('0'-'9').
 
@@ -224,7 +224,7 @@ Output:
 palindromic
 not palindromic
 
-* Problem 18:
+* Problem 20:
 
 Implement strcat(), stracpy(), strcmp() and strlen() recursively.
 
@@ -234,7 +234,7 @@ test on your own
 Output:
 test on your own
 
-* Problem 19:
+* Problem 21:
 
 If you already solved the problem for finding the nth fibonacci number, then you must have a clear vision on how the program flow works. So now, in this problem, print the values of your fibonacci function in pre-order, in-order and post-order traversal. For example, when n = 5, your program calls 3 and 4 from it, from the call of 3, your program calls 1 and 2 again....... here is the picture:
 
@@ -246,7 +246,7 @@ Inorder: 1 3 2 5 2 4 1 3 2
 Preorder: 5 3 1 2 4 2 3 1 2
 Postorder: 1 2 3 2 1 2 3 4 5
 
-* Problem 20:
+* Problem 22:
 
 All of you have seen the tower of Hanoi. You have 3 pillars 'a', 'b' and 'c', and you need transfer all disks from one pillar to another. Conditions are, only one disk at a time is movable, and you can never place a larger disk over a smaller one. Write a recursive solution to print the moves that simulates the task, a -> b means move the topmost of tower a to tower b.
 

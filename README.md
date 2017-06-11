@@ -1,6 +1,6 @@
 # Recursion
 
-* Problem 1:
+## Problem 1:
 
 You will be given an array of integers, write a recursive solution to print it in reverse order. <br />
 
@@ -11,7 +11,7 @@ Input: <br />
 Output: <br />
 47 21 45 87 69 <br />
 
-* Problem 2: <br />
+## Problem 2: <br />
 
 Write a recursive function to print an array in the following order.
 [0] [n-1] <br />
@@ -29,7 +29,7 @@ Output: <br />
 5 8 <br />
 7 7 <br /> 
 
-* Problem 3: <br />
+## Problem 3: <br />
 
 Write a recursive program to remove all odd integers from an array. You must not use any extra array. 
 
@@ -41,7 +41,7 @@ Output: <br />
 54 88 6 <br />
 
 
-* Problem 4: <br />
+## Problem 4: <br />
 
 Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read input, call the recursive function, then print the array in main().
 
@@ -52,18 +52,18 @@ Input: <br />
 Output: <br />
 54 88 6 <br />
 
-* Problem 5: <br />
+## Problem 5: <br />
 
 Write a recursive solution to print the polynomial series for any input n:
 1 + x + x2 + ................. + xn-1 <br />
-![alt text](http://i.imgur.com/k359mxP.png "")
+![alt text](https://cmabdullah.github.io/Recursion/Images/graph.png "")
 
 Input: <br />
 5 <br />
 Output: <br />
 1 + x + x^2 + x^3 + x^4 <br />
 
-* Problem 6: <br />
+## Problem 6: <br />
 
 Write a recursive solution to evaluate the previous polynomial for any given x and n.
 Like, when x=2 and n=5, we have 1 + x + x2 + ................. + xn-1 = 31
@@ -74,7 +74,7 @@ Input: <br />
 Output: <br />
 31 <br />
 
-* Problem 7: <br />
+## Problem 7: <br />
 
 Write a recursive program to compute n!  <br />
 

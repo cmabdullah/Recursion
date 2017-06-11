@@ -31,4 +31,6 @@ void recurs(int i, int j){
     printf("%d\t %d\n", a[i],a[j]);
     recurs(i+1, j-1);
     }
+  else
+        return  ;
 }

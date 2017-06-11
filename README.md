@@ -84,7 +84,16 @@ Input:  <br />
 Output: <br />
 120 <br />
 
-* Problem 8: <br />
+## Problem 8: <br />
+
+Write a recursive program to print fibonacci series. 1st and 2nd fibonacci numbers are 1, 1. <br />
+
+Input: <br />
+6 <br />
+Output: <br />
+1 1 2 3 5 8 <br />
+
+## Problem 9: <br />
 
 Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1. <br />
 
@@ -92,6 +101,10 @@ Input: <br />
 6 <br />
 Output: <br />
 8 <br />
+
+
+
+
 
 * Problem 9: 
 

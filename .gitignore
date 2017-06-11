@@ -15,3 +15,5 @@
 *makefile
 *.mk
 *.d
+/Problem 8/.gitignore
+/Problem 9/.gitignore

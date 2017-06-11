@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Problem.cpp
+// Name        : Problem 7.cpp
 // Author      : Abdullah Khan
 // Version     :
 // Copyright   : OpenSource

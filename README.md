@@ -152,16 +152,16 @@ Output: <br />
 For example, a card game which requires its cards to be divided equally among up to 5 players requires at least 60 cards, the number at the intersection of the 2, 3, 4 and 5 sets, but not the 7 set.*
 
 ![alt text](https://cmabdullah.github.io/Recursion/Images/lcd.svg "")
-* Problem 13:
+## Problem 14:
 
 Suppose you are given an array of integers in an arbitrary order. Write a recursive solution to find the maximum element from the array.
 
 
-Input:
-5
-7 4 9 6 2
-Output:
-9
+Input: <br />
+6 <br />
+5 7 4 9 6 2 <br />
+Output: <br />
+9 <br />
 
 * Problem 14:
 

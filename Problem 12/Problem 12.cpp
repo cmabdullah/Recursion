@@ -9,7 +9,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-int gcd(int a, int b);
+int gcd(int i, int j);
 int lcm(int a, int b);
 /**
 Problem 12:
@@ -27,14 +27,10 @@ int main(){
     printf("%d\n", value);
     return 0;
 }
-int gcd(int a, int b){
-    // base case
-    if (a == b)
-        return a;
-    // a is greater
-    if (a > b)
-        return gcd(a-b, b);
-    return gcd(a, b-a);
+int gcd(int i, int j){
+    if(j==0)
+    		return i;
+    return gcd(j, i%j);
 }
  // Function to return LCM of two numbers
 int lcm(int a, int b){

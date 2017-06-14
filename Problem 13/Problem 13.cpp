@@ -20,8 +20,8 @@ Output: 11224
  * */
 int main(){
     int a, b, l;
-    a = 23;
-    b = 488;
+    a = 12;
+    b = 20;
     l = lcm(a, b, 1);
     printf("%d\n", l);
     return 0;

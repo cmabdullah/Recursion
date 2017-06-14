@@ -163,31 +163,31 @@ Input: <br />
 Output: <br />
 9 <br />
 
-* Problem 14:
+## Problem 15:
 
 Write a recursive solution to find the second maximum number from a given set of integers.
 
 
-Input:
-5
-5 8 7 9 3
-Output:
-8
+Input: <br />
+5<br />
+5 8 7 9 3<br />
+Output:<br />
+8<br />
 
-* Problem 15:
+## Problem 16:
 
 Implement linear search recursively, i.e. given an array of integers, find a specific value from it.
 Input format: first n, the number of elements. Then n integers. Then, q, number of query, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
 
 
-Input:
-5
-2 9 4 7 6
-2
-5 9
-Output:
-not found
-1
+Input:<br />
+5<br />
+2 9 4 7 6<br />
+2<br />
+5 9<br />
+Output:<br />
+not found<br />
+1<br />
 
 * Problem 16:
 

@@ -2,7 +2,7 @@
 
 ## Problem 1:
 
-You will be given an array of integers, write a recursive solution to print it in reverse order. <br />
+Write a recursive function that prints all the elements of an array of integers in reverse order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
 
 
 Input: <br />
@@ -157,7 +157,7 @@ For example, a card game which requires its cards to be divided equally among up
 
 ## Problem 14:
 
-Find [Product](http://www.sanfoundry.com/c-program-product-numbers-recursion/) of 2 Numbers using Recursion (panding)
+Find [Product](http://www.sanfoundry.com/c-program-product-numbers-recursion/) of 2 Numbers using Recursion (panding) (6.189 IAP 2011: Optional Recursion Exercises)
 
 
 
@@ -213,94 +213,78 @@ Output: <br />
 
 
 
+hackerrank
+** [find Power of a Number using Recursion](http://www.sanfoundry.com/c-program-power-number-using-recursion/)
+
+
+* [Pascal's Triangle (Easy)](https://www.hackerrank.com/challenges/pascals-triangle)
+
+* [Functions and Fractals: Sierpinski triangles (Advance)](https://www.hackerrank.com/challenges/functions-and-fractals-sierpinski-triangles)
+
+* [String Mingling (Easy)](https://www.hackerrank.com/challenges/string-mingling)
+
+
+* [String-o-Permute (Easy)](https://www.hackerrank.com/challenges/string-o-permute)
+
+* [Functions and Fractals - Recursive Trees (Advanced)](https://www.hackerrank.com/challenges/fractal-trees)
+
+* [Convex Hull (Medium)](https://www.hackerrank.com/challenges/convex-hull-fp)
+
+* [String Compression (Easy)](https://www.hackerrank.com/challenges/string-compression)
+
+* [Crosswords-101 (Advanced)](https://www.hackerrank.com/challenges/crosswords-101). [More](https://www.hackerrank.com/domains/fp/fp-recursion/2)
 
 
 
 
-* Problem 16:
+##  [6.189 IAP 2011: Optional Recursion Exercises MIT OpenCourseWare](https://ocw.mit.edu/courses/...and.../MIT6_189IAP11_rec_problems.pdf)
 
-Implement binary search recursively, i.e. given an array of sorted integers, find a query integer from it.
-Input format: first n, the number of elements. Then n integers. Then, q, number of query, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
+* 2. Write a function that takes in a base and an exp and recursively computes baseexp. You are not allowed to use the ** operator!
 
+* 3. Write a function using recursion to print numbers from n to 0.
 
-Input:
-5
-1 2 3 4 5
-2
-3 -5
-Output:
-2
-not found
+* 4. Write a function using recursion to print numbers from 0 to n (you just need to change one line in the program of problem 1).
 
-* Problem 17:
+* 5. Write a function using recursion that takes in a string and returns a reversed copy of the string. The only string operation you are allowed to use is string concatenation.
 
-Write a recursive solution to get the reverse of a given integer. Function must return an int
+* 6. Write a function using recursion to check if a number n is prime (you have to check whether n is divisible by any number below n).
+
+* 7. Write a recursive function that takes in one argument n and computes Fn, the nth value of the Fibonacci sequence. Recall that the Fibonacci sequence is defined by the relation
+Fn = Fn−1 + Fn−2
 
 
-Input:
-123405
-Output:
-504321
 
-* Problem 18:
+##  [www.cs.cornell.edu)](www.cs.cornell.edu/courses/cs2110/2014fa/L07-Recursion/recursion_practice.pdf)
 
-Read a string from keyboard and print it in reversed order. You must not use any array to store the characters. Write a recursive solutions to solve this problem.
+* Q2. Outline, but do not implement, a recursive solution for finding the smallest value in an array.
 
+* Q4. Outline, but do not implement, a recursive solution for generating all subsets of the set {1, 2, . . . , n}.
 
-Input:
-helloo
-Output:
-oolleh
+* Q5. Write a recursive definition of xn, where n ≥ 0, similar to the recursive definition of the Fibonacci numbers.
+Hint: How do you compute xn from xn – 1? How does the recursion terminate?
 
-* Problem 19:
-
-Write a recursive program that determines whether a given sentence is palindromic or not just considering the alpha-numeric characters ('a'-'z'), ('A'-'Z'), ('0'-'9').
+* Q6. Write a recursive definition of n! = 1 × 2 × . . . × n, similar to the recursive definition of the Fibonacci numbers.
 
 
-Input:
-madam, i'm adam
-hulala
-Output:
-palindromic
-not palindromic
-
-* Problem 20:
-
-Implement strcat(), stracpy(), strcmp() and strlen() recursively.
 
 
-Input:
-test on your own
-Output:
-test on your own
-
-* Problem 21:
-
-If you already solved the problem for finding the nth fibonacci number, then you must have a clear vision on how the program flow works. So now, in this problem, print the values of your fibonacci function in pre-order, in-order and post-order traversal. For example, when n = 5, your program calls 3 and 4 from it, from the call of 3, your program calls 1 and 2 again....... here is the picture:
 
 
-Input:
-5
-Output:
-Inorder: 1 3 2 5 2 4 1 3 2
-Preorder: 5 3 1 2 4 2 3 1 2
-Postorder: 1 2 3 2 1 2 3 4 5
 
-* Problem 22:
+[RecursionPracticeQuestions-UG1](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)
+* 4. Find the sum of the integers from 1 through n. Use recursion.
+* 5. Find the product of the integers from 1 through n (this is called the factorial function).
+If n is zero, return 1. Use recursion.
+* 6. Count the number of zeros in an array of integers. Use recursion.
+* 7. Find the minimum element in an array of integers. Use recursion.
+* 8. Write a function for mutliply(a, b), where a and b are both positive integers, but you
+can only use the + or − operators.
+* 9. Find Greatest Common Divisor (GCD) of 2 numbers using recursion.
+* 10. Write a recursive function to reverse a string. Write a recursive function to reverse
+the words in a string, i.e., ”cat is running” becomes ”running is cat”.
+* 11. A word is considered elfish if it contains the letters: e, l, and f in it, in any order. For example, we would say that the following words are elfish: whiteleaf, tasteful, unfriendly, and waffles, because they each contain those letters. Write a function that, given a word, tells us if that word is elfish or not.  Hard  version: Write another function x-ish, that, given two words, returns true if all the letters of the first word are
+contained in the second.
 
-All of you have seen the tower of Hanoi. You have 3 pillars 'a', 'b' and 'c', and you need transfer all disks from one pillar to another. Conditions are, only one disk at a time is movable, and you can never place a larger disk over a smaller one. Write a recursive solution to print the moves that simulates the task, a -> b means move the topmost of tower a to tower b.
-
-
-Input:
-3
-Output:
-a -> c
-a -> b
-c -> b
-a -> c
-b -> a
-b -> c
-a -> c
 
 
 

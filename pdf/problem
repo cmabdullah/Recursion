@@ -1,0 +1,85 @@
+https://www.hackerrank.com/domains/fp/fp-recursion/1
+* Problem 16:
+
+Implement binary search recursively, i.e. given an array of sorted integers, find a query integer from it.
+Input format: first n, the number of elements. Then n integers. Then, q, number of query, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
+
+
+Input:
+5
+1 2 3 4 5
+2
+3 -5
+Output:
+2
+not found
+
+* Problem 17:
+
+Write a recursive solution to get the reverse of a given integer. Function must return an int
+
+
+Input:
+123405
+Output:
+504321
+
+* Problem 18:
+
+Read a string from keyboard and print it in reversed order. You must not use any array to store the characters. Write a recursive solutions to solve this problem.
+
+
+Input:
+helloo
+Output:
+oolleh
+
+* Problem 19:
+
+Write a recursive program that determines whether a given sentence is palindromic or not just considering the alpha-numeric characters ('a'-'z'), ('A'-'Z'), ('0'-'9').
+
+
+Input:
+madam, i'm adam
+hulala
+Output:
+palindromic
+not palindromic
+
+* Problem 20:
+
+Implement strcat(), stracpy(), strcmp() and strlen() recursively.
+
+
+Input:
+test on your own
+Output:
+test on your own
+
+* Problem 21:
+
+If you already solved the problem for finding the nth fibonacci number, then you must have a clear vision on how the program flow works. So now, in this problem, print the values of your fibonacci function in pre-order, in-order and post-order traversal. For example, when n = 5, your program calls 3 and 4 from it, from the call of 3, your program calls 1 and 2 again....... here is the picture:
+
+
+Input:
+5
+Output:
+Inorder: 1 3 2 5 2 4 1 3 2
+Preorder: 5 3 1 2 4 2 3 1 2
+Postorder: 1 2 3 2 1 2 3 4 5
+
+* Problem 22:
+
+All of you have seen the tower of Hanoi. You have 3 pillars 'a', 'b' and 'c', and you need transfer all disks from one pillar to another. Conditions are, only one disk at a time is movable, and you can never place a larger disk over a smaller one. Write a recursive solution to print the moves that simulates the task, a -> b means move the topmost of tower a to tower b.
+
+
+Input:
+3
+Output:
+a -> c
+a -> b
+c -> b
+a -> c
+b -> a
+b -> c
+a -> c

@@ -29,8 +29,3 @@ int gcd(int i, int j){
     		return i;
     return gcd(j, i%j);
 }
-
-/**
-To get gcd(i,j), keep dividing i by j.
-The value i%j will be the j for the next step and current j will be the i for the next step.
- * */

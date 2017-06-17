@@ -29,7 +29,9 @@ Output: <br />
 5 8 <br />
 7 7 <br /> 
 
-## Problem 3: <br />
+**_Basic Mathematical Operations using Recursion_**
+
+## Problem 3:
 
 Write a recursive program to remove all odd integers from an array. You must not use any extra array. 
 
@@ -41,7 +43,8 @@ Output: <br />
 54 88 6 <br />
 
 
-## Problem 4: <br />
+
+## Problem 4:
 
 Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read input, call the recursive function, then print the array in main().
 
@@ -76,7 +79,7 @@ Output: <br />
 
 ## Problem 7: <br />
 
-Write a recursive program to compute n!  <br />
+Find the [Factorial](http://www.sanfoundry.com/c-program-factorial-using-recursion/) of a Number using Recursion  <br />
 
 
 Input:  <br />
@@ -108,8 +111,7 @@ Output: <br />
 
 ## Problem 10: 
 
-Write a recursive program to determine whether a given integer is prime or not.
-
+Write a recursive program to determine whether a given integer is [prime](http://www.sanfoundry.com/c-program-prime-number-using-recursion/) or not.
 
 Input: <br />
 19 <br />
@@ -120,7 +122,7 @@ prime <br />
 
 ## Problem 11: 
 
-Write a recursive function that finds the gcd of two non-negative integers.
+Find GCD or [HCF](http://www.sanfoundry.com/c-program-hcf-number-recursion/) of two numbers
 
 
 Input: <br />
@@ -152,16 +154,21 @@ Output: <br />
 For example, a card game which requires its cards to be divided equally among up to 5 players requires at least 60 cards, the number at the intersection of the 2, 3, 4 and 5 sets, but not the 7 set.*
 
 ![alt text](https://cmabdullah.github.io/Recursion/Images/lcd.svg "")
+
 ## Problem 14:
 
-Suppose you are given an array of integers in an arbitrary order. Write a recursive solution to find the maximum element from the array.
+Find [Product](http://www.sanfoundry.com/c-program-product-numbers-recursion/) of 2 Numbers using Recursion (panding)
+
+
 
 
 Input: <br />
-6 <br />
-5 7 4 9 6 2 <br />
-Output: <br />
-9 <br />
+4 4 <br />
+Output:<br />
+16  <br />
+
+
+
 
 ## Problem 15:
 
@@ -188,6 +195,27 @@ Input:<br />
 Output:<br />
 not found<br />
 1<br />
+
+
+
+
+
+## Problem 20:
+
+Suppose you are given an array of integers in an arbitrary order. Write a recursive solution to find the maximum element from the array.
+
+
+Input: <br />
+6 <br />
+5 7 4 9 6 2 <br />
+Output: <br />
+9 <br />
+
+
+
+
+
+
 
 * Problem 16:
 

@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Problem 14.cpp
+// Name        : Problem.cpp
 // Author      : C M Abdullah Khan
 // Version     :
 // Copyright   : OpenSource
@@ -7,26 +7,19 @@
 //============================================================================
 
 #include <iostream>
-#include <stdio.h>
+#include <cstdio>
 using namespace std;
-/***
-Suppose you are given an array of integers in an arbitrary order.
-Write a recursive solution to find the maximum element from the array.
-Input: 5 7 4 9 6 2
-Output: 9
- * */
-int Max(int i, int n, int *a) ;
+int product( int n1, int n2);
 int main(){
-    int n, m, a[] = {5, 7, 4, 9, 6, 2};
-    n = 6;
-    m = Max(0, n, a);
-    printf("%d\n", m);
-    return 0;
+       int n1, n2, result;
+       n1 = 4;
+       n2 = 4;
+       result = product( n1, n2 );
+       printf("%d", result );
 }
-int Max(int i, int n, int *a){
-    int m;
-    if(i==n-1)
-    	return a[i]; // the last value is the maximum for this step
-    m = Max(i+1, n, a);
-    return ((a[i] > m)? a[i] : m);
+int product (int n1,int n2){
+     if (n2 == 0)
+          return 0;
+     else
+          return n1 + product ( n1, n2 - 1);
 }

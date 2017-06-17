@@ -7,10 +7,10 @@
 //============================================================================
 
 #include <iostream>
-#include <stdio.h>
+#include <cstdio>
 using namespace std;
 /****
-Problem 9:
+
 Write a recursive program to compute nth fibonacci number.
 1st and 2nd fibonacci numbers are 1, 1.
 Input:

@@ -16,7 +16,7 @@ Output: <br />
 
 
 
-Find the sum of the integers from 1 through n. Use recursion.(RecursionPracticeQuestions-UG1, problem 2)
+Find the sum of the integers from 1 through n. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)
 
 
 Input:<br />
@@ -196,7 +196,14 @@ Output: <br />
 5 8 <br />
 7 7 <br /> 
 
+## Problem 17:
 
+Count the number of zeros in an array of integers. Use recursion.(RecursionPracticeQuestions-UG1, problem 6)
+
+Input: <br />
+2,4,0,6,0 <br />
+Output: <br />
+2 <br />
 
 
 
@@ -273,10 +280,9 @@ Hint: How do you compute xn from xn – 1? How does the recursion terminate?
 
 
 [RecursionPracticeQuestions-UG1](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)
-* 4. Find the sum of the integers from 1 through n. Use recursion.
-* 5. Find the product of the integers from 1 through n (this is called the factorial function).
-If n is zero, return 1. Use recursion.
-* 6. Count the number of zeros in an array of integers. Use recursion.
+* ~~4. Find the sum of the integers from 1 through n. Use recursion.~~
+* ~~5. Find the product of the integers from 1 through n (this is called the factorial function). If n is zero, return 1. Use recursion.~~
+* ~~6. Count the number of zeros in an array of integers. Use recursion.~~
 * 7. Find the minimum element in an array of integers. Use recursion.
 * 8. Write a function for mutliply(a, b), where a and b are both positive integers, but you
 can only use the + or − operators.

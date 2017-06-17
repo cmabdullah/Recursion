@@ -7,7 +7,8 @@
 //============================================================================
 
 #include <iostream>
- using namespace std;
+#include <cstdio>
+using namespace std;
 /**************
 algorithm
 [0] [n-1]

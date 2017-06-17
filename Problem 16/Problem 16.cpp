@@ -1,34 +1,36 @@
 //============================================================================
 // Name        : Problem.cpp
-// Author      : C M Abdullah Khan
+// Author      : Abdullah
 // Version     :
 // Copyright   : OpenSource
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
-using namespace std;
-
-#include <stdio.h>
-int linearSearch(int i, int n, int v, int *a);
-int main(){
-    int a[100], n, q, v, x, i;
-    scanf("%d", &n);
-    for(i=0; i<n; i++)
-        scanf("%d", &a[i]);
-    scanf("%d", &q);
-    for(i=0; i<q; i++){
-        scanf("%d", &v);
-        x = linearSearch(0, n, v, a);
-        if(x==-1) printf("Not found\n");
-        else printf("Found at %d\n", x);
-    }
+ using namespace std;
+/**************
+algorithm
+[0] [n-1]
+[1] [n-2]
+.
+.
+.
+.
+.
+[(n-1)/2] [n/2]
+***/
+ void recurs(int i, int j);
+ int main(){
+    int n = 10;
+    recurs(0, n-1);
     return 0;
-}
-int linearSearch(int i, int n, int v, int *a){
-    if(i==n)
-    		return -1;
-    if(a[i]==v)
-    		return i;
-    return linearSearch(i+1, n, v, a);
+ }
+void recurs(int i, int j){
+    int a[] = {2,4,5,8,10,12,13,14,15,16};
+    if(i<=j){
+    printf("%d\t %d\n", a[i],a[j]);
+    recurs(i+1, j-1);
+    }
+  else
+        return  ;
 }

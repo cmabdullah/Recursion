@@ -1,36 +1,29 @@
+
 //============================================================================
 // Name        : Problem.cpp
-// Author      : Abdullah
+// Author      : C M Abdullah Khan
 // Version     :
 // Copyright   : OpenSource
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
+/*Find the sum of the integers from 1 through n. Use recursion.
+ *(RecursionPracticeQuestions-UG1, problem 2)
+ *(RecursionPracticeQuestions-UG1, 1+2+3+4 = 10
+ */
 #include <iostream>
- using namespace std;
-/**************
-algorithm
-[0] [n-1]
-[1] [n-2]
-.
-.
-.
-.
-.
-[(n-1)/2] [n/2]
-***/
- void recurs(int i, int j);
- int main(){
-    int n = 10;
-    recurs(0, n-1);
-    return 0;
- }
-void recurs(int i, int j){
-    int a[] = {2,4,5,8,10,12,13,14,15,16};
-    if(i<=j){
-    printf("%d\t %d\n", a[i],a[j]);
-    recurs(i+1, j-1);
-    }
-  else
-        return  ;
+#include <cstdio>
+using namespace std;
+int recurs  (int i, int sum);
+int main(){
+	int x;
+	x = recurs(4, 0);
+	printf("%d", x);
 }
+int recurs  (int i, int sum){
+	if (i == 0)
+		return sum;
+	sum = sum + i;
+	return recurs(i-1, sum);
+}
+

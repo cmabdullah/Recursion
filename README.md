@@ -13,21 +13,18 @@ Output: <br />
 
 ## Problem 2: <br />
 
-Write a recursive function to print an array in the following order.
-[0] [n-1] <br />
-[1] [n-2] <br />
-......... <br />
-......... <br />
-[(n-1)/2] [n/2] <br />
 
 
-Input: <br />
-5 <br />
-1 5 7 8 9 <br />
-Output: <br />
-1 9 <br />
-5 8 <br />
-7 7 <br /> 
+
+Find the sum of the integers from 1 through n. Use recursion.(RecursionPracticeQuestions-UG1, problem 2)
+
+
+Input:<br />
+4 <br /> 
+Output:<br />
+10 <br /> 
+
+
 
 **_Basic Mathematical Operations using Recursion_**
 
@@ -183,18 +180,22 @@ Output:<br />
 
 ## Problem 16:
 
-Implement linear search recursively, i.e. given an array of integers, find a specific value from it.
-Input format: first n, the number of elements. Then n integers. Then, q, number of query, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
+Write a recursive function to print an array in the following order.
+[0] [n-1] <br />
+[1] [n-2] <br />
+......... <br />
+......... <br />
+[(n-1)/2] [n/2] <br />
 
 
-Input:<br />
-5<br />
-2 9 4 7 6<br />
-2<br />
-5 9<br />
-Output:<br />
-not found<br />
-1<br />
+Input: <br />
+5 <br />
+1 5 7 8 9 <br />
+Output: <br />
+1 9 <br />
+5 8 <br />
+7 7 <br /> 
+
 
 
 

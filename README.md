@@ -206,6 +206,23 @@ Output: <br />
 2 <br />
 
 
+## Problem 18:
+
+Write a function using recursion to print numbers from n to 0.(6.189 IAP 2011: Optional Recursion Exercises MIT OpenCourseWare, problem 3)
+
+Input: <br />
+5 <br />
+Output: <br />
+5 4 3 2 1 0  <br />
+
+## Problem 19:
+
+Write a function using recursion to print numbers from 0 to n (you just need to change one line in the program of problem 1).(6.189 IAP 2011: Optional Recursion Exercises MIT OpenCourseWare, problem 4)
+
+Input: <br />
+5 <br />
+Output: <br />
+0 1 2 3 4 5  <br />
 
 
 ## Problem 20:
@@ -221,8 +238,8 @@ Output: <br />
 
 
 
-hackerrank
-** [find Power of a Number using Recursion](http://www.sanfoundry.com/c-program-power-number-using-recursion/)
+## hackerrank
+* [find Power of a Number using Recursion](http://www.sanfoundry.com/c-program-power-number-using-recursion/)
 
 
 * [Pascal's Triangle (Easy)](https://www.hackerrank.com/challenges/pascals-triangle)
@@ -249,9 +266,9 @@ hackerrank
 
 * 2. Write a function that takes in a base and an exp and recursively computes baseexp. You are not allowed to use the ** operator!
 
-* 3. Write a function using recursion to print numbers from n to 0.
+* ~~3. Write a function using recursion to print numbers from n to 0.~~
 
-* 4. Write a function using recursion to print numbers from 0 to n (you just need to change one line in the program of problem 1).
+* ~~4. Write a function using recursion to print numbers from 0 to n (you just need to change one line in the program of problem 1).~~
 
 * 5. Write a function using recursion that takes in a string and returns a reversed copy of the string. The only string operation you are allowed to use is string concatenation.
 

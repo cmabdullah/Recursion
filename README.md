@@ -238,6 +238,25 @@ Output: <br />
 
 
 
+
+
+
+## Problem 22:
+
+The binomial coefficients B(n,k) defined by formula (1) satisfy
+(2)  <br />
+B(n, k) = B(n − 1, k − 1) + B(n − 1, k), 1 ≤ k ≤ n − 1.
+
+
+Input: <br />
+B(n, k) = 10,4 <br />
+Output: <br />
+210 <br />
+
+
+
+
+
 ## hackerrank
 * [find Power of a Number using Recursion](http://www.sanfoundry.com/c-program-power-number-using-recursion/)
 

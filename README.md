@@ -108,7 +108,7 @@ Output: <br />
 
 ## Problem 10: 
 
-Write a recursive program to determine whether a given integer is [prime](http://www.sanfoundry.com/c-program-prime-number-using-recursion/) or not.
+Write a recursive program to determine whether a given integer is prime or not.(6.189 IAP 2011: Optional Recursion Exercises MIT OpenCourseWare problem 6)
 
 Input: <br />
 19 <br />
@@ -150,7 +150,7 @@ Output: <br />
 *A Venn Diagram showing the least common multiples of combinations of 2, 3, 4, 5 and 7 (6 is skipped as it is 2 × 3, both of which are already represented).
 For example, a card game which requires its cards to be divided equally among up to 5 players requires at least 60 cards, the number at the intersection of the 2, 3, 4 and 5 sets, but not the 7 set.*
 
-![alt text](https://cmabdullah.github.io/Recursion/Images/lcd.svg "")
+![alt text](https://cmabdullah.github.io/Recursion/Images/lcm.png "")
 
 ## Problem 14:
 
@@ -169,7 +169,7 @@ Output:<br />
 
 ## Problem 15:
 
-Write a recursive solution to find the second maximum number from a given set of integers.
+Write a recursive solution to find the second maximum number from a given set of integers.(panding)[CSC 349: Design and Analyis of Algorithms](http://users.csc.calpoly.edu/~dekhtyar/349-Spring2010/lectures/lec03.349.pdf)
 
 
 Input: <br />
@@ -227,7 +227,7 @@ Output: <br />
 
 ## Problem 20:
 
-Suppose you are given an array of integers in an arbitrary order. Write a recursive solution to find the maximum element from the array.
+Write a recursive solution to find the maximum element from the array.
 
 
 Input: <br />
@@ -236,6 +236,16 @@ Input: <br />
 Output: <br />
 9 <br />
 
+## Problem 21:
+
+Write a recursive solution to find the minimum element from the array.(RecursionPracticeQuestions-UG1 problem 7)
+
+
+Input: <br />
+6 <br />
+5 7 4 9 6 2 <br />
+Output: <br />
+2 <br />
 
 
 
@@ -243,8 +253,8 @@ Output: <br />
 
 ## Problem 22:
 
-The binomial coefficients B(n,k) defined by formula (1) satisfy
-(2)  <br />
+Find the recursive solution of binomial coefficients [B(n,k)](http://www.math.tamu.edu/~berko/teaching/preREU2010/example_paper.pdf) defined by formula (1) satisfy (hackerrank)
+ <br />
 B(n, k) = B(n − 1, k − 1) + B(n − 1, k), 1 ≤ k ≤ n − 1.
 
 
@@ -253,6 +263,16 @@ B(n, k) = 10,4 <br />
 Output: <br />
 210 <br />
 
+
+## Problem 23:
+
+Write a recursive function to reverse a string. Write a recursive function to reverse
+the words in a string, i.e., ”cat is running” becomes ”running is cat”.(RecursionPracticeQuestions-UG1 problem 10)
+
+Input: <br />
+cat is running<br />
+Output: <br />
+running is cat <br />
 
 
 
@@ -291,23 +311,23 @@ Output: <br />
 
 * 5. Write a function using recursion that takes in a string and returns a reversed copy of the string. The only string operation you are allowed to use is string concatenation.
 
-* 6. Write a function using recursion to check if a number n is prime (you have to check whether n is divisible by any number below n).
+* ~~6. Write a function using recursion to check if a number n is prime (you have to check whether n is divisible by any number below n).~~
 
-* 7. Write a recursive function that takes in one argument n and computes Fn, the nth value of the Fibonacci sequence. Recall that the Fibonacci sequence is defined by the relation
-Fn = Fn−1 + Fn−2
+* ~~7. Write a recursive function that takes in one argument n and computes Fn, the nth value of the Fibonacci sequence. Recall that the Fibonacci sequence is defined by the relation
+Fn = Fn−1 + Fn−2~~
 
 
 
-##  [www.cs.cornell.edu)](www.cs.cornell.edu/courses/cs2110/2014fa/L07-Recursion/recursion_practice.pdf)
+##  [www.cs.cornell.edu](www.cs.cornell.edu/courses/cs2110/2014fa/L07-Recursion/recursion_practice.pdf)
 
-* Q2. Outline, but do not implement, a recursive solution for finding the smallest value in an array.
+* ~~Q2. Outline, but do not implement, a recursive solution for finding the smallest value in an array.~~
 
-* Q4. Outline, but do not implement, a recursive solution for generating all subsets of the set {1, 2, . . . , n}.
+* ~~Q4. Outline, but do not implement, a recursive solution for generating all subsets of the set {1, 2, . . . , n}.~~
 
 * Q5. Write a recursive definition of xn, where n ≥ 0, similar to the recursive definition of the Fibonacci numbers.
 Hint: How do you compute xn from xn – 1? How does the recursion terminate?
 
-* Q6. Write a recursive definition of n! = 1 × 2 × . . . × n, similar to the recursive definition of the Fibonacci numbers.
+* ~~Q6. Write a recursive definition of n! = 1 × 2 × . . . × n, similar to the recursive definition of the Fibonacci numbers.~~
 
 
 
@@ -319,10 +339,10 @@ Hint: How do you compute xn from xn – 1? How does the recursion terminate?
 * ~~4. Find the sum of the integers from 1 through n. Use recursion.~~
 * ~~5. Find the product of the integers from 1 through n (this is called the factorial function). If n is zero, return 1. Use recursion.~~
 * ~~6. Count the number of zeros in an array of integers. Use recursion.~~
-* 7. Find the minimum element in an array of integers. Use recursion.
+* ~~7. Find the minimum element in an array of integers. Use recursion.~~
 * 8. Write a function for mutliply(a, b), where a and b are both positive integers, but you
 can only use the + or − operators.
-* 9. Find Greatest Common Divisor (GCD) of 2 numbers using recursion.
+* ~~9. Find Greatest Common Divisor (GCD) of 2 numbers using recursion.~~
 * 10. Write a recursive function to reverse a string. Write a recursive function to reverse
 the words in a string, i.e., ”cat is running” becomes ”running is cat”.
 * 11. A word is considered elfish if it contains the letters: e, l, and f in it, in any order. For example, we would say that the following words are elfish: whiteleaf, tasteful, unfriendly, and waffles, because they each contain those letters. Write a function that, given a word, tells us if that word is elfish or not.  Hard  version: Write another function x-ish, that, given two words, returns true if all the letters of the first word are

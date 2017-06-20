@@ -13,9 +13,9 @@ using namespace std;
 /***
 RecursionPracticeQuestions-UG1 problem 7
 //Find the minimum element in an array of integers. Use recursion.
-//Find the minimum element in an array of integers. Use recursion.
 Input: 5 7 4 9 6 2
-Output: 9
+Output: 2
+
 Find the Second Largest Element in an Array
 http://algorithms.tutorialhorizon.com/find-the-second-largest-element-in-an-array/
 http://users.csc.calpoly.edu/~dekhtyar/349-Spring2010/lectures/lec03.349.pdf

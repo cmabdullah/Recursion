@@ -275,6 +275,16 @@ Output: <br />
 running is cat <br />
 
 
+## Problem 24:
+
+Write a recursive function to reverse a string. Write a recursive function to reverse
+the digit in a string.
+
+Input: <br />
+cat is running<br />
+Output: <br />
+running is cat <br />
+
 
 
 ## hackerrank
@@ -343,11 +353,22 @@ Hint: How do you compute xn from xn – 1? How does the recursion terminate?
 * 8. Write a function for mutliply(a, b), where a and b are both positive integers, but you
 can only use the + or − operators.
 * ~~9. Find Greatest Common Divisor (GCD) of 2 numbers using recursion.~~
-* 10. Write a recursive function to reverse a string. Write a recursive function to reverse
+* ~~10. Write a recursive function to reverse a string. Write a recursive function to reverse~~
 the words in a string, i.e., ”cat is running” becomes ”running is cat”.
 * 11. A word is considered elfish if it contains the letters: e, l, and f in it, in any order. For example, we would say that the following words are elfish: whiteleaf, tasteful, unfriendly, and waffles, because they each contain those letters. Write a function that, given a word, tells us if that word is elfish or not.  Hard  version: Write another function x-ish, that, given two words, returns true if all the letters of the first word are
 contained in the second.
 
+
+
+[2_113_Programming Exercise 2016-17](gweca.ac.in/files/blog/2_113_Programming%20Exercise%202016-17.pdf)
+
+9.2. C Program to Multiply two Matrices using Recursion
+9.3. C Program to calculate sum of numbers 1 to N using
+recursion
+9.4.   Find Sum of Digits of the Number using Recursive
+Function in C Programming
+9.5. C Program to print Tower of Hanoi using recursion
+9.6. Find Factorial of Number Using Recursion
 
 
 

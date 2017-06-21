@@ -1,22 +1,24 @@
 //============================================================================
-// Name        : Factorial.cpp
-// Author      : Abdullah
+// Name        : Problem.cpp
+// Author      : C M Abdullah Khan
 // Version     :
 // Copyright   : OpenSource
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
+#include <cstdio>
 using namespace std;
-int factorial(int a);
-int main() {
-
-	printf("%d",factorial(5));
-	return 0;
+void recurs(char *reverse);
+int main(){
+   char arr[100];
+   scanf("%s", &arr);
+   recurs(arr);
+   return 0;
 }
-int factorial(int n){
-	if (n == 1)
-	return 1;
-	else
-		return n = n * factorial(n-1);
+void recurs(char *reverse){
+   if (*reverse){
+	   recurs(reverse+1);
+       printf("%c", *reverse);
+   }
 }

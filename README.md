@@ -281,9 +281,9 @@ Write a recursive function to reverse a string. Write a recursive function to re
 the digit in a string.
 
 Input: <br />
-cat is running<br />
+running<br />
 Output: <br />
-running is cat <br />
+gninnur <br />
 
 
 

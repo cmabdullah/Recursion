@@ -18,15 +18,15 @@ Input:
 Output:
 8
  * */
-int fib(int n);
+long long int fib(long long int n);
 int main(){
-    int n, value;
-    n = 6;
+	long long int n, value;
+    scanf("%lld",&n);
     value = fib(n);
-    printf("%d\n", value);
+    printf("%lld\n", value);
     return 0;
 }
-int fib(int n){
+long long int fib(long long int n){
     if(n<3)
     	return 1;
     else

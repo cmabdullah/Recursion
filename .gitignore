@@ -15,6 +15,7 @@
 *makefile
 *.mk
 *.d
+/Problem 9/Debug/Problem 9
 /Problem 1/.gitignore
 /Problem 2/.gitignore
 /Problem 3/.gitignore

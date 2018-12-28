@@ -26,8 +26,14 @@ int main() {
 	return 0;
 }
 int factorial(int n){
+	int x ;
+	printf("n : %d \n" , n);
 	if (n == 1)
 	return 1;
-	else
+	else{
+		x = n * factorial(n-1);
+		printf("\n factorial : %d \n", x);
 		return n = n * factorial(n-1);
+	}
+
 }

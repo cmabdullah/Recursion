@@ -27,8 +27,15 @@ int main(){
     return 0;
 }
 long long int fib(long long int n){
+	long long int fn_2, fn_1;
     if(n<3)
     	return 1;
-    else
-    return fib(n-2) + fib(n-1);
+    else{
+    	fn_2 = fib(n-2) ;
+    	fn_1 = fib(n-1) ;
+    	printf("fn_2 : %lld fn_1 : %lld\n", fn_2 , fn_1);
+    	return fn_2+ fn_1;
+    	//return fib(n-2) + fib(n-1);
+    }
+
 }

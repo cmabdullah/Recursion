@@ -41,3 +41,19 @@ int factorial(int n){
 		return x;
 	}
 }
+/****
+n : 5 
+n : 4 
+n : 3 
+n : 2 
+n : 1 
+Mr N : 2
+ factorial : 2 
+Mr N : 3
+ factorial : 6 
+Mr N : 4
+ factorial : 24 
+Mr N : 5
+ factorial : 120 
+120
+*/

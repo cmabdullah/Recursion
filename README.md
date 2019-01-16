@@ -286,6 +286,16 @@ Output: <br />
 gninnur <br />
 
 
+## Problem 25:
+
+Write a recursive function to reverse a string. (java)
+
+Input: <br />
+ASDFG<br />
+Output: <br />
+SDFGA <br />
+
+
 
 ## hackerrank
 * [find Power of a Number using Recursion](http://www.sanfoundry.com/c-program-power-number-using-recursion/)

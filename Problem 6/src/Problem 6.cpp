@@ -28,9 +28,29 @@ int main(){
     return 0;
 }
 int recurs(int i, int n, int x){
+	int val , p;
+	printf("n : %d i : %d\n", n, i);
     if(n==0)
         return 1;
-    if(i<n)
-        return (int)pow(x,i) + recurs(i+1, n, x);
+    if(i<n){
+    val =  + recurs(i+1, n, x);
+    p = (int)pow(x,i);
+    printf("p : %d , val : %d \n", p , val);
+        return val+p;
+        }
     return 0;
 }
+/***
+n : 5 i : 0
+n : 5 i : 1
+n : 5 i : 2
+n : 5 i : 3
+n : 5 i : 4
+n : 5 i : 5
+p : 16 , val : 0 
+p : 8 , val : 16 
+p : 4 , val : 24 
+p : 2 , val : 28 
+p : 1 , val : 30 
+31
+*/

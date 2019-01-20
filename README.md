@@ -295,7 +295,21 @@ ASDFG<br />
 Output: <br />
 SDFGA <br />
 
+## Problem 26
 
+Print All Permutation Of String Recursion
+Input: <br />
+'a', 'b', 'c'<br />
+Output: <br />
+abc 1 <br/>
+acb 2 <br/>
+bca 3 <br/>
+bac 4 <br/>
+cab 5 <br/>
+cba 6 <br/>
+
+
+![alt text](https://cmabdullah.github.io/Recursion/Images/permutation.jpg "")
 
 ## hackerrank
 * [find Power of a Number using Recursion](http://www.sanfoundry.com/c-program-power-number-using-recursion/)
